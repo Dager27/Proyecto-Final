@@ -1,21 +1,23 @@
+classDiagram
+    class Estudiante {
+        +int id
+        +string nombre
+        +string apellido
+        +agregarCalificacion(Asignatura asignatura, float nota)
+        +obtenerPromedio() float
+    }
 
----
+    class Asignatura {
+        +int id
+        +string nombre
+        +float obtenerPromedio() 
+    }
 
-# 6) calificacion.md (auto-evaluación — plantilla)
-Contenido sugerido (rellena con tu autoevaluación conforme a la rúbrica):
+    class Calificacion {
+        +float nota
+        +Estudiante estudiante
+        +Asignatura asignatura
+    }
 
-```markdown
-# Autoevaluación
-
-## Criterios y puntuación
-1. Implementación de herencia (X/10): ...
-2. Herencia múltiple (X/10): ...
-3. Polimorfismo (X/10): ...
-4. Agregación / Composición (X/10): ...
-5. Asociaciones entre criaturas (X/10): ...
-6. Uso de STL y RNG (X/10): ...
-7. Persistencia JSON/XML (X/10): ...
-8. Documentación / README / UML (X/10): ...
-
-## Comentarios personales
-(Reflexión sobre lo aprendido, dificultades y mejoras futuras)
+    Estudiante "1" --> "0..*" Calificacion : tiene
+    Asignatura "1" --> "0..*" Calificacion : tiene
