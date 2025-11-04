@@ -1,16 +1,14 @@
-//
-// Created by dgavi on 3/11/2025.
-//
-
 #ifndef CARNIVORO_H
 #define CARNIVORO_H
 
+#include "Criature.h"
 
+class Carnivoro : public Criatura {
+public:
+    Carnivoro(int x, int y, int energia);
 
-class Carnivoro {
-
+    void actualizar() override;
+    void mostrar() const override;
 };
 
-
-
-#endif //CARNIVORO_H
+#endif

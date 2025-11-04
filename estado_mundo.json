@@ -1,0 +1,6 @@
+{
+  "criaturas": [
+    { "x": 2, "y": 5, "tipo": "Herbivoro" },
+    { "x": 6, "y": 3, "tipo": "Carnivoro" }
+  ]
+}
