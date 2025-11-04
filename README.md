@@ -39,7 +39,7 @@ Los estudiantes o investigadores pueden usarlo como base para estudiar dinámica
 - **Persistencia**: el mundo puede **guardarse en JSON o XML** y **cargarse posteriormente** para continuar la simulación.  
 - **Visualización textual** del mapa en consola (por ejemplo, `.` = vacío, `H` = herbívoro, `C` = carnívoro).  
 
-<!--
+--
 ### 🚀 Casos de uso  
 
 1. Iniciar una simulación nueva:
