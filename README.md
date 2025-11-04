@@ -57,7 +57,7 @@ Los estudiantes o investigadores pueden usarlo como base para estudiar dinámica
    }
 -->
 
-<!--
+--
 ## 💻 Instrucciones de compilación y ejecución
 
 1. Clonar el repositorio:
@@ -74,7 +74,7 @@ Los estudiantes o investigadores pueden usarlo como base para estudiar dinámica
    ./ProyectoFinal.exe
 -->
 
-<!--
+--
 ## 📂 Estructura de carpetas y explicación del código
 
 ProyectoFinal/
@@ -94,7 +94,7 @@ ProyectoFinal/
 - Serializador: Guarda y carga el estado del mundo desde archivos.
 -->
 
-<!--
+--
 ## 📸 Capturas de pantalla / Ejemplos de salida
 
 Estado inicial del mundo:
